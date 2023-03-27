@@ -2,12 +2,14 @@ div {
     width: 75px;
     height: 75px;
     border: 1px solid red;
+    border-radius: 10px;
     display: inline-block;
   }
   
   img {
     border: 10px groove orangered;
     border-radius: 100%;
+    
   }
   .dogone {
     border: 10px dashed orangered;

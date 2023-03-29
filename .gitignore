@@ -1,44 +1,12 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Folders
-_obj
-_test
+# Local History for Visual Studio Code
+.history/
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
-
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
-
-_testmain.go
-
-*.exe
-*.test
-*.prof
-
-
-# mac hidden files
-.DS_Store
-
-#other
-node_modules/
-bower_components/
-.tmp
-.sass-cache
-builds/**/images/*
-*.ogg
-#*.mp3
-#*.mp4
-#*.png
-#*.jpeg
-
-# security / ssl
-*.pem
-*.xxjson
+# Built Visual Studio Code Extensions
+*.vsix

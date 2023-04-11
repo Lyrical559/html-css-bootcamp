@@ -1,0 +1,85 @@
+/*specificity 1 element and pseudo-element*/
+h1 {
+  width: 100px;
+  height: 100px;
+  border: solid;
+}
+
+/*specificity 1 element and pseudo-element*/
+p {
+  width: 100px;
+  height: 100px;
+  border: 3px dotted;
+}
+
+/*specificity 1 element and pseudo-element*/
+div {
+  width: 150px;
+  height: 150px;
+  border: 3px double;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: table-cell;
+  text-align: center;
+}
+
+/*specificity 1 ID*/
+#main {
+  color: magenta;
+  border: 3px dotted;
+}
+
+/*specificity 1 Classes, attributes and pseudo-classes*/
+.header {
+  color: aqua;
+  border: 3px solid dotted;
+}
+
+/*specificity 1 ID*/
+#school {
+  color: crimson;
+  border: 3px groove;
+}
+
+/*specificity 1 Classes, attributes and pseudo-classes*/
+.work {
+  color: chartreuse;
+  border: 3px dashed dotted;
+}
+
+/*specificity 1 ID*/
+#class {
+  color: blue;
+  border: 3px inset;
+}
+
+/*specificity 1 Classes, attributes and pseudo-classes*/
+.fun {
+  color: darkorchid;
+  border: 3px solid double;
+}
+
+/*specificity 1 ID*/
+#bored {
+  color: deeppink;
+  border: 3px dashed solid;
+}
+
+/*specificity 1 Classes, attributes and pseudo-classes*/
+.happy {
+  color: lawngreen;
+  border: 3px inset;
+}
+
+/*specificity 1 ID*/
+#sad {
+  color: brown;
+  border: dashed double none;
+}
+
+/*specificity 1 Classes, attributes and pseudo-classes*/
+.easter {
+  color: coral;
+  border: inset dashed;
+}

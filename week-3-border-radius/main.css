@@ -1,0 +1,11 @@
+div {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 10px 130px 30px 130px;
+    border: 3px dotted  yellowgreen;
+    background-color: yellow;
+    margin: auto;
+    display: inline-block;
+    
+  }

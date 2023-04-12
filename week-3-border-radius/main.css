@@ -5,7 +5,7 @@ div {
     border-radius: 10px 130px 30px 130px;
     border: 3px dotted  yellowgreen;
     background-color: yellow;
-    margin: auto;
+    margin: 0 auto;
     display: inline-block;
     
   }
